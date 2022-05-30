@@ -73,7 +73,7 @@
     <derby.version>10.14.2.0</derby.version>
     <commons-codec.version>1.14</commons-codec.version>
     <commons-io.version>2.7</commons-io.version>
-    <kafka.clients.version>1.0.0</kafka.clients.version>
+    <kafka.clients.version>3.2.0</kafka.clients.version>
     <threetenbp.version>1.4.4</threetenbp.version>
     <spring.version>5.2.8.RELEASE</spring.version>
     <autovalue.annotations.version>1.7.4</autovalue.annotations.version>
@@ -514,8 +514,7 @@
                   </filter>
                 </filters>
                 <transformers>
-                  <transformer
-                      implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                  <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                 </transformers>
               </configuration>
             </execution>
@@ -886,7 +885,7 @@
             </format>
           </formats>
           <java>
-            <toggleOffOn />
+            <toggleOffOn/>
             <googleJavaFormat>
               <version>1.8</version>
               <style>GOOGLE</style>
