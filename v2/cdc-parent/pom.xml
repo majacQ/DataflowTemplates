@@ -34,7 +34,7 @@
     <debezium.version>0.9.5.Final</debezium.version>
     <grpc.version>1.35.0</grpc.version>
     <guava.version>30.0-jre</guava.version>
-    <gcp.version>1.82.0</gcp.version>
+    <gcp.version>2.15.0</gcp.version>
     <data-catalog.version>0.35.0</data-catalog.version>
   </properties>
   <licenses>
