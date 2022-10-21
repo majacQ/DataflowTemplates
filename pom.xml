@@ -66,7 +66,7 @@
     <re2j.version>1.4</re2j.version>
     <codehaus-jackson.version>1.9.13</codehaus-jackson.version>
     <commons-csv.version>1.8</commons-csv.version>
-    <commons-text.version>1.9</commons-text.version>
+    <commons-text.version>1.10.0</commons-text.version>
     <google-cloud-bigquery.version>1.108.0</google-cloud-bigquery.version>
     <grpc.version>1.13.1</grpc.version>
     <mvn-target-dir>${basedir}/target</mvn-target-dir>
@@ -514,8 +514,7 @@
                   </filter>
                 </filters>
                 <transformers>
-                  <transformer
-                      implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                  <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                 </transformers>
               </configuration>
             </execution>
@@ -886,7 +885,7 @@
             </format>
           </formats>
           <java>
-            <toggleOffOn />
+            <toggleOffOn/>
             <googleJavaFormat>
               <version>1.8</version>
               <style>GOOGLE</style>
