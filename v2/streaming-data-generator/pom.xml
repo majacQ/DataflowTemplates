@@ -30,8 +30,8 @@
   </parent>
 
   <properties>
-    <json-data-generator.version>1.10</json-data-generator.version>
-    <snakeyaml.version>1.23</snakeyaml.version>
+    <json-data-generator.version>1.15</json-data-generator.version>
+    <snakeyaml.version>1.32</snakeyaml.version>
    </properties>
 
   <dependencies>
