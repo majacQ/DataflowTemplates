@@ -70,7 +70,7 @@
     <google-cloud-bigquery.version>1.108.0</google-cloud-bigquery.version>
     <grpc.version>1.13.1</grpc.version>
     <mvn-target-dir>${basedir}/target</mvn-target-dir>
-    <derby.version>10.14.2.0</derby.version>
+    <derby.version>10.17.1.0</derby.version>
     <commons-codec.version>1.14</commons-codec.version>
     <commons-io.version>2.7</commons-io.version>
     <kafka.clients.version>1.0.0</kafka.clients.version>
